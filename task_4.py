@@ -9,6 +9,5 @@ n = int(input("Введите число долек шоколадки по ве
 k = int(input("Введите число долек шоколадки, которое хочется отломить: "))
 if  k ==1 and m != 1 and n != 1:
     print("No")
-    print('No')
 else:
     print("Yes")
