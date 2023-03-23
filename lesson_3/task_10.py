@@ -46,7 +46,7 @@ for el in str_1.upper():
         count += merge_dict[el]
 print(count)
   
-print(dict_english)
-print(dict_rus)
+#print(dict_english)
+#print(dict_rus)
 
 
