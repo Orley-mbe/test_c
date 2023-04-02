@@ -11,12 +11,11 @@ print(list_number)
 minNum = int(input('Введите минимум диапазона '))
 maxNum = int(input('Введите максsимум диапазона '))
 for el in list_number[minNum:maxNum+1]: 
-    print(f'{el},{list_number.index(el, minNum, maxNum)}')
+    #print(f'{el},{list_number.index(el, minNum, maxNum)}')
+    for i, val in enumerate(list_number):
+        if val == el and minNum <= i <= maxNum:
+            print(f'{i},{ val}')
 
     
-#result = [ (i, list_number.index(i, minNum, maxNum)) for i in list_number]
-#for el in list_number:
-#    result = []
-#    if el in range(minNum, maxNum):
-#        result.append(enumerate())
+
 
