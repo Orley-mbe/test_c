@@ -3,4 +3,5 @@
 
 i = int(input("Введите число 1 :"))
 j = int(input("Введите число 2: "))
-print(i+j)
+sum = i+j
+print(sum)
